@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.DS {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("http://media.giphy.com/media/4wOZX2KIGHX7q/giphy.gif");
+    min-height: 90%;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#DS" class="w3-bar-item w3-button">DAILY SPECIALS</a>
+    <a href="#UE" class="w3-bar-item w3-button">UPCOMING EVENTS</a>
+    <a href="#Review" class="w3-bar-item w3-button">REVIEWS</a>
+     <a input type="text" placeholder="Search..">
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">HAYS, HAYES, & MOOLMAN ASSOCIATES</span>
+  </div>
+  
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:80px">Bartopia<br>Knoxville, TN</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>THE<br>ONLY SITE YOU NEED</b></span>
+    <p><a href="#DS" class="w3-button w3-xxlarge w3-black">Show Me What's Happening?</a></p>
+  </div>
+</header>
+
+<!-- Daily Special Container -->
+
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="DS">
+  <div class="w3-content">
+<h1 class="w3-center w3-jumbo" style="margin-bottom:64px">DAILY SPECIALS</h1>
+   
+   
+   
+   <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'MONDAY DEALS');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">MONDAY</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'TUESDAY DEALS');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">TUESDAY</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'WEDNESDAY DEALS');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">WEDNESDAY</div>
+      </a>
+       <a href="javascript:void(0)" onclick="openMenu(event, 'THURSDAY DEALS');">
+      <div class="w3-col s4 tablink w3-padding-large w3-hover-red">THURSDAY</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'FRIDAY DEALS');">
+<div class="w3-col s4 tablink w3-padding-large w3-hover-red">FRIDAY</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'SATURDAY DEALS');">
+ <div class="w3-col s4 tablink w3-padding-large w3-hover-red">SATURDAY</div>
+     </a>
+ <a href="javascript:void(0)" onclick="openMenu(event, 'SUNDAY DEALS');">
+ <div class="w3-col s4 tablink w3-padding-large w3-hover-red">SUNDAY</div>
+      </a>
+    </div>
+    
+    
+    
+
+    <div id="MONDAY DEALS" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>1/2 Price Fish & Chips </b> <span class="w3-right w3-tag w3-dark-grey w3-round">$7.50</span></h1>
+      <p class="w3-text-grey">The Crown & Goose
+      <h5>  123 S. Central Street | Knoxville, TN 37902 | p: 865-524-2100 
+      <hr>
+   
+      <h1><b>$2 Domestic Bottles and Drafts</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.00</span></h1>
+      <p class="w3-text-grey">Cool Beans Bar & Grill
+      <h5>   1817 Lake Ave | Knoxville, TN 37916 | p: (865) 522-6417 
+      <hr>
+      
+    </div>
+
+
+
+
+    <div id="TUESDAY DEALS" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>something yummy</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$0.75 per win</span></h1>
+      <p class="w3-text-grey">Go eat with friends</p>
+      <hr>
+   
+ </div>
+ 
+ 
+ 
+    <div id="WEDNESDAY DEALS" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Discounted Wings & Beer</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$0.75 per wing & $5 per pitcher Bud light</span></h1>
+      <p class="w3-text-grey">The Hill- When? All day baby.</p>
+      <h5>  1105 Forest Ave | Knoxville, TN 37902 | p: 865-540-1011
+      <hr>
+ <h1><b>Discounted Oysters & Wine</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$0.50 per Oyster & 1/2 price wine</span></h1>
+      <p class="w3-text-grey">The Crown & Goose- When? 3:00 to 8:00 p.m.</p>
+      <h5>  123 South Central Street | Knoxville, TN 37902 | p: 865-524-2100
+      <hr>
+    </div> 
+
+
+
+
+    <div id="THURSDAY DEALS" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>A day for everyone</b> <span class="w3-tag w3-grey w3-round">Most Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">Most Free</span></h1>
+      <p class="w3-text-grey">Do something fun today.</p>
+      <hr>
+    </div>
+
+
+
+
+    <div id="FRIDAY DEALS" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>A day for the gals.</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">Free</span></h1>
+      <p class="w3-text-grey">Go play outside.</p>
+      <hr>
+
+    </div>
+
+
+
+
+    <div id="SATURDAY DEALS" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Something For the boys</b> <span class="w3-tag w3-grey w3-round">Slightly less popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">free</span></h1>
+      <p class="w3-text-grey">Go play outside.</p>
+      <hr>
+
+    </div>
+    
+    
+    
+    <div id="SUNDAY DEALS" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Burger Deal</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$5.00</span></h1>
+      <p class="w3-text-grey">Copper Cellar- When? All Day Baby.</p>
+      <h5>  1807 Cumberland Ave | Knoxville, TN 37902 | p: 865-673-3411
+      <hr>
+    </div><br>
+
+  </div>
+</div>
+
+
+<!-- Upcoming Events Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="UE">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">UPCOMING EVENTS</h1>
+    <p>Happy hours not cutting it? Here are some bigger events happening soon (and maybe even weekly) at your favorite local Knoxville bars and Restaurants!</p>
+    <p><strong>The point?</strong> Get Out and Get Social. TRY SOMETHING NEW. MAKE SOME FRIENDS. CELEBRATE OLD FRIENDS. </p> 
+    <p>Heres a view of how much fun you could be having if you stopped by any of the fun activities:</p>
+    <img src="http://images.dailyhive.com/20161202110139/party.jpg" alt="Restaurant">
+    <h1><b>Events to Consider:</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Trivia Night - Copper Cellar<br>Every Monday<br>9:00 p.m - 12:00 a.m.<br>Bonus: $1 beers<br>1807 Cumberland Ave | Knoxville, TN 37902<br>p: 865-673-3411</p>
+        <p>Live Jazz Music - The Crown & Goose<br>Every Wednesday<br>2:00 - 10:00 a.m.<br>Bonus: $0.50 & 1/2 Price Wine *3:00-8:00 p.m.*<br>123 South Central Street | Knoxville, TN 37902 <br>p: 865-524-2100</p>
+      </div>
+      <div class="w3-col s6">
+        <p>80s COver band - The hill<br>April 20, 2018<br>10:00 p.m. - 1:00 a.m.<br>Bonus: Only a $10 cover and $5 pitchers while the band plays<br>1105 Forest Ave | Knoxville, TN 37902<br>p: 865-540-1011</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Review  -->
+<div id="Review" 
+
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Reviews</h1>
+    <p>How was your experience? We only want to tell you guys about fun places, so let us know if you had a Gnarly time or if a bar/restaurant is not living up to our high expectations.</p>
+    <p><span class="w3-tag">FYI!</span> We would love to hear what you guys are looking for... what fun deal or event should we suggest to these baller restaurants.</p>
+    <p class="w3-xxlarge"><strong>Share with us.</strong> send us a message. tell us about your night:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Your Name & where you went" required name="     Name & Where You Ate"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Rate your experience From 1 (horible so bad)  to 5 (incredible too good)" required name="        People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="      date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Review | comment | message " required name="       Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit"formaction="https://ih1.redbubble.net/image.246602662.6530/flat,750x1000,075,t.jpg">SEND REVIEW</button></p>
+    </form>
+  </div>
+</div>
+
+ 
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">IE 421</a></p>
+</footer>
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+</body>
+</html>
+
